@@ -1,5 +1,7 @@
-/*  Expresiones booleans
-*Console.WriteLine("a" == "a");
+### Expresiones booleans
+
+```c#
+Console.WriteLine("a" == "a");
 
 Console.WriteLine("a" == "A");
 
@@ -46,8 +48,13 @@ string cadena = "T";
 Console.WriteLine(pangram.StartsWith("S"));
 
 Console.WriteLine(pangram.StartsWith(cadena));
+```
 
-// Operacion de negacion !
+
+
+### Operacion de negacion !
+
+```c#
 string pangram = "The quick brown fox jumps over the lazy dog.";
 
 
@@ -55,9 +62,6 @@ Console.WriteLine(!pangram.Contains("sevilla"));
 
 // Operador condicional
 // <expresion>   ? ejecución por verdad  : ejecución por falsedad
-
-
-
 
 int saleAmount = 1001;
 
@@ -72,9 +76,13 @@ else
 //Console.WriteLine($"Descuento:{discount}");
 
 Console.WriteLine($"Descuento:{(saleAmount > 1000 ? 100:50)}");
+```
 
-// Desafio
 
+
+### Desafio
+
+```c#
 Random coin = new Random();
 int cara_cruz = coin.Next(2);
 Console.WriteLine($"Moneda al aire:{cara_cruz}->{(cara_cruz== 0 ? "cara" : "cruz")}");
@@ -85,7 +93,6 @@ Console.WriteLine($"Moneda al aire:{cara_cruz}->{(cara_cruz== 0 ? "cara" : "cruz
 
 //< expresion bool>  ? <true> : <false>
 
-
 // Desafio II
 string permiso_usuario2="Manager";
 int nivel_usuario2=45;
@@ -93,8 +100,7 @@ int nivel_usuario2=45;
 string permiso_usuario3="Finanzas";
 int nivel_usuario3=70;
 
-    //Console.WriteLine(permission.Split('|')[0].Contains("Admin"));
-
+//Console.WriteLine(permission.Split('|')[0].Contains("Admin"));
 
 string permission = "Admin|Manager";
 int level = 55;
@@ -116,7 +122,5 @@ if (permission.Contains(permiso_usuario1))
     }
 else
     Console.WriteLine("You do not have sufficient privileges.");
-    
-
-
+```
 
