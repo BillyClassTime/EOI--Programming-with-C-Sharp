@@ -14,7 +14,7 @@ Entity Framework Core es un **asignador de objetos relacionales**. Los ORM "obje
 
 En el diagrama siguiente se muestra la arquitectura subyacente a EF Core.
 
-![EF Core Architecture.](https://docs.microsoft.com/es-es/learn/aspnetcore/persist-data-ef-core/media/ef-core-architecture.png)
+![EFArquitecture](img/ef-core-architecture.png)
 
 ## Administración de esquemas de base de datos
 
